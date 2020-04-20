@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuMenu"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="Menu">
+    </item>
+
+    <item
+        android:id="@+id/signUpMenu"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="Sign Up">
+    </item>
+
+
+    <item
+        android:id="@+id/sharedPreferenceMenu"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="Shared Preferences">
+    </item>
+</menu>

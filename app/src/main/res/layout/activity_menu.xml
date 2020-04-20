@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#957BC3"
+    tools:context=".MailActivity">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@android:drawable/ic_dialog_map"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal" >
+
+
+        <Button
+            android:id="@+id/menuNewRegister"
+            android:textSize="16dp"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@android:drawable/ic_menu_save"
+            android:text="New Register" />
+        <Button
+            android:id="@+id/menuSignUp"
+            android:textSize="16dp"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:drawableTop="@android:drawable/ic_menu_myplaces"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/menuUserList"
+            android:textSize="16dp"
+            android:layout_width="170dp"
+             android:layout_height="wrap_content"
+            android:text="User List"
+            android:drawableTop="@android:drawable/btn_star_big_on"/>
+
+
+        <Button
+            android:id="@+id/menuSharedPreferences"
+            android:textSize="16dp"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="SHARED PREF."
+            android:drawableTop="@android:drawable/ic_menu_mapmode"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal" >
+
+
+        <Button
+            android:id="@+id/menuMail"
+            android:textSize="16dp"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Send Mail"
+            android:drawableTop="@android:drawable/ic_dialog_email"/>
+
+
+        <Button
+            android:id="@+id/menuSensors"
+            android:textSize="16dp"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Sensors"
+            android:drawableTop="@android:drawable/ic_menu_search"/>
+
+    </LinearLayout>
+</RelativeLayout>

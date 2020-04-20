@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7D57BF"
+    tools:context=".SharedPreferencesActivity">
+
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+    <EditText
+        android:id="@+id/sharedPreferenceUserName"
+        android:layout_width="match_parent"
+        android:hint="Username"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/sharedPreferenceAge"
+        android:layout_width="match_parent"
+        android:hint="Age"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/sharedPreferenceWeight"
+        android:hint="Weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/sharedPreferenceHeight"
+        android:hint="Height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/sharedPreferencecheckBoxErkek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female" />
+    <CheckBox
+        android:id="@+id/sharedPreferencecheckBoxKadin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male" />
+
+
+    <Button
+        android:id="@+id/show_text_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Show" />
+
+
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Save" />
+
+</LinearLayout>
