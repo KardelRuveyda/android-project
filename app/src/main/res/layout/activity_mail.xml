@@ -50,9 +50,38 @@
         android:id="@+id/text_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:lines="10"
+        android:lines="5"
         android:gravity="start|top"
         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attachments:"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+    <EditText
+        android:id="@+id/twAttachment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:enabled="false"
+        android:gravity="start|top"
+        />
+
+    <Button
+        android:id="@+id/add_attachments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:text="ADD ATTACHMENTS"/>
+
 
     <Button
         android:id="@+id/send_mail"
@@ -62,5 +91,7 @@
         android:textStyle="bold"
         android:background="@color/colorPrimary"
         android:text="SEND"/>
+
+
 
 </LinearLayout>

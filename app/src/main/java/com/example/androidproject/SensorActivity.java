@@ -47,6 +47,9 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sensor);
 
+        getSupportActionBar().setTitle("Sensors");
+
+
         SensorMng = (SensorManager)getSystemService(Context.SENSOR_SERVICE);
         sensor = SensorMng.getDefaultSensor(Sensor.TYPE_LIGHT);
 
